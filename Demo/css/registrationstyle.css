@@ -1,0 +1,117 @@
+/* Styling the Registration Page */
+body {
+  /* Background color of Welcome Page */
+  background: linear-gradient(#0A224E, #243b55);
+  display: flex;
+  font-family: Open Sans;
+  flex-direction: column;
+  /* Centering Items in Welcome Page */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style for td elements */
+td {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 20px;;
+}
+
+/* Style for fieldset element */
+reg-box {
+  position: absolute; /* Set the login box to absolute position */
+  top: 50%; /* Position the login box 50% from the top of its parent element */
+  left: 50%; /* Position the login box 50% from the left of its parent element */
+  width: 450px; /* Set the width of the login box to 400 pixels */
+  padding: 40px; /* Apply 40 pixels of padding to the login box */
+  transform: translate(-50%, -50%); /* Use transform to center the login box vertically and horizontally */
+  background: rgba(0,0,0,.5); /* Set the background color of the login box to a semi-transparent black */
+  box-sizing: border-box; /* Include padding and border in the width and height of the login box */
+  box-shadow: 0 15px 25px rgba(0,0,0,.6); /* Apply a box shadow to the login box */
+  border-radius: 10px; /* Apply border radius to the login box */
+}
+
+
+/* Style for  element */
+h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for table element */
+table {
+  border: 0px solid black;
+}
+
+/* Style for input elements */
+input[type="text"],
+input[type="mail"],
+input[type="password"],
+input[type="MyID"],
+select {
+  width: 250px;
+  height: 30px;
+}
+
+/* Style for submit button */
+a {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  background-color: #007bff;
+  font-family: Open Sans;
+  text-align: center;
+  border-radius: 6px;
+  display: block; /* Add this line to make the link a block element */
+  margin: 0 auto;
+  width: fit-content;
+}
+
+/* Style for hover effect on submit button */
+a:hover {
+  background-color: #0077FF;
+}
+
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+border-radius: 4px;
+display: block;
+font-size: 12px;
+padding: 10px;
+width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
