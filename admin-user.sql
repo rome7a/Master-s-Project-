@@ -16,10 +16,10 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `admin`
+-- Table structure for table `admin-users`
 --
 
-DROP TABLE IF EXISTS `admin`;
+DROP TABLE IF EXISTS `admin-users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `admin-user` (
@@ -33,13 +33,13 @@ CREATE TABLE `admin-user` (
 
 
 --
--- Dumping data for table `admin`
+-- Dumping data for table `admin-users`
 --
 
-LOCK TABLES `admin` WRITE;
-/*!40000 ALTER TABLE `admin` DISABLE KEYS */;
-INSERT INTO `admin` VALUES ('ADMIN1','PINGILI','PRANAVPALREDDY','pp97267',12345,'pp97267@uga.edu'),('ADMIN2','AFZAL','ROMESA','ra58647',67890,'ra58647@uga.edu');
-/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
+LOCK TABLES `admin-users` WRITE;
+/*!40000 ALTER TABLE `admin-users` DISABLE KEYS */;
+INSERT INTO `admin-users` VALUES ('ADMIN1','PINGILI','PRANAVPALREDDY','pp97267',12345,'pp97267@uga.edu'),('ADMIN2','AFZAL','ROMESA','ra58647',67890,'ra58647@uga.edu');
+/*!40000 ALTER TABLE `admin-users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
