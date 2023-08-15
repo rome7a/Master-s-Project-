@@ -23,35 +23,34 @@ DROP TABLE IF EXISTS `grades`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `grades` (
-  `OrgDefinedId` text,
-  `Last Name` text,
-  `First Name` text,
-  `Email` text,
-  `Assignment-1` int DEFAULT NULL,
-  `Assignment-2` int DEFAULT NULL,
-  `Assignment 3` int DEFAULT NULL,
-  `Assignment-4` int DEFAULT NULL,
-  `Assignments Subtotal Numerator` double DEFAULT NULL,
-  `Assignments Subtotal Denominator` int DEFAULT NULL,
-  `Quiz-1 Points` int DEFAULT NULL,
-  `HW-1 Points` text,
-  `Quiz-2 Points` double DEFAULT NULL,
-  `HW-2 Points` int DEFAULT NULL,
-  `Quiz-3 Points` int DEFAULT NULL,
-  `HW-3 Points` int DEFAULT NULL,
-  `Quiz-4 Points` int DEFAULT NULL,
-  `Quiz Subtotal Numerator` double DEFAULT NULL,
-  `Quiz Subtotal Denominator` int DEFAULT NULL,
-  `Midterm Points` int DEFAULT NULL,
-  `Final Exam Points` int DEFAULT NULL,
-  `Weighted Total Calculated Numerator` double DEFAULT NULL,
-  `Weighted Total Calculated Denominator` int DEFAULT NULL,
-  `Calculated Final Grade Numerator` double DEFAULT NULL,
-  `Calculated Final Grade Denominator` int DEFAULT NULL,
-  `Adjusted Final Grade Numerator` text,
-  `Adjusted Final Grade Denominator` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+   `OrgDefinedId` text,
+   `Last Name` text,
+   `First Name` text,
+   `Email` text,
+   `Assignment-1` int DEFAULT NULL,
+   `Assignment-2` int DEFAULT NULL,
+   `Assignment 3` int DEFAULT NULL,
+   `Assignment-4` int DEFAULT NULL,
+   `Assignments Subtotal Numerator` double DEFAULT NULL,
+   `Assignments Subtotal Denominator` int DEFAULT NULL,
+   `Quiz-1 Points` int DEFAULT NULL,
+   `HW-1 Points` text,
+   `Quiz-2 Points` double DEFAULT NULL,
+   `HW-2 Points` int DEFAULT NULL,
+   `Quiz-3 Points` int DEFAULT NULL,
+   `HW-3 Points` int DEFAULT NULL,
+   `Quiz-4 Points` int DEFAULT NULL,
+   `Quiz Subtotal Numerator` double DEFAULT NULL,
+   `Quiz Subtotal Denominator` int DEFAULT NULL,
+   `Midterm Points` int DEFAULT NULL,
+   `Final Exam Points` int DEFAULT NULL,
+   `Weighted Total Calculated Numerator` double DEFAULT NULL,
+   `Weighted Total Calculated Denominator` int DEFAULT NULL,
+   `Calculated Final Grade Numerator` double DEFAULT NULL,
+   `Calculated Final Grade Denominator` int DEFAULT NULL,
+   `Adjusted Final Grade Numerator` text,
+   `Adjusted Final Grade Denominator` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `grades`
